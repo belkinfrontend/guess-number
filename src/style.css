@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: auto;
+    
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    max-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: #000 2px 2px 5px;
+}
+p {
+    color: #fff;
+    font-size: 2em;
+    text-shadow: #000 2px 2px 5px;
+    
+}
+#congratulations img {
+    max-width: 100%;
+}
+input {
+    line-height: 40px;
+    font-size: 2em;
+    border: 1px solid #000;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button {
+    font-family: 'Kavivanar', cursive;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(252, 33, 198,.8);
+    
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    
+}
+button:hover {
+    background-color: rgb(252, 33, 198);
+}
+button:active {
+    background-color: rgb(252, 33, 198);
+    border: 1px solid #fff;
+}
+
+button:focus, input:focus{
+    outline: none;
+}
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
